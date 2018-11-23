@@ -111,14 +111,14 @@
   <meta name="description" content="前端埋点主要是为了服务运营人员采集用户行为数据，进行后续的数据分析工作。">
 <meta name="keywords" content="前端埋点,前端监控">
 <meta property="og:type" content="article">
-<meta property="og:title" content="前端监控和卖点方案总结">
-<meta property="og:url" content="http://yoursite.com/2018/11/23/前端监控和卖点方案总结/index.html">
+<meta property="og:title" content="前端监控和埋点方案总结">
+<meta property="og:url" content="http://yoursite.com/2018/11/23/前端监控和埋点方案总结/index.html">
 <meta property="og:site_name" content="没有title">
 <meta property="og:description" content="前端埋点主要是为了服务运营人员采集用户行为数据，进行后续的数据分析工作。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-23T07:18:44.146Z">
+<meta property="og:updated_time" content="2018-11-23T09:19:40.256Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="前端监控和卖点方案总结">
+<meta name="twitter:title" content="前端监控和埋点方案总结">
 <meta name="twitter:description" content="前端埋点主要是为了服务运营人员采集用户行为数据，进行后续的数据分析工作。">
 
 
@@ -126,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/11/23/前端监控和卖点方案总结/">
+  <link rel="canonical" href="http://yoursite.com/2018/11/23/前端监控和埋点方案总结/">
 
 
 
@@ -136,7 +136,7 @@
   };
 </script>
 
-  <title>前端监控和卖点方案总结 | 没有title</title>
+  <title>前端监控和埋点方案总结 | 没有title</title>
   
 
 
@@ -349,7 +349,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/23/前端监控和卖点方案总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/23/前端监控和埋点方案总结/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="linzy">
@@ -366,7 +366,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">前端监控和卖点方案总结
+          <h1 class="post-title" itemprop="name headline">前端监控和埋点方案总结
               
             
           </h1>
@@ -391,7 +391,7 @@
                 
               
 
-              <time title="Created: 2018-11-23 15:06:02 / Modified: 15:18:44" itemprop="dateCreated datePublished" datetime="2018-11-23T15:06:02+08:00">2018-11-23</time>
+              <time title="Created: 2018-11-23 15:06:02 / Modified: 17:19:40" itemprop="dateCreated datePublished" datetime="2018-11-23T15:06:02+08:00">2018-11-23</time>
             
 
             
@@ -532,7 +532,7 @@
   <li class="post-copyright-link">
     <strong>Post link: </strong>
     
-    <a href="http://yoursite.com/2018/11/23/前端监控和卖点方案总结/" title="前端监控和卖点方案总结">http://yoursite.com/2018/11/23/前端监控和卖点方案总结/</a>
+    <a href="http://yoursite.com/2018/11/23/前端监控和埋点方案总结/" title="前端监控和埋点方案总结">http://yoursite.com/2018/11/23/前端监控和埋点方案总结/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.</li>
@@ -877,6 +877,7 @@
 
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="/js/src/md5.min.js"></script>
    <script type="text/javascript">
         var gitalk = new Gitalk({
           clientID: 'b28deb5ee8a441bc4713',
@@ -884,7 +885,7 @@
           repo: 'lynnlynnchow.github.io',
           owner: 'lynnlynnchow',
           admin: ['lynnlynnchow'],
-          id: location.pathname,
+          id: md5(location.pathname),
           distractionFreeMode: 'true'
         })
         gitalk.render('gitalk-container')           
