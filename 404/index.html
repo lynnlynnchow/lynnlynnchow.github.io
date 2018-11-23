@@ -110,13 +110,14 @@
 
   <meta name="description" content="代码中挣扎，业务中绝望">
 <meta property="og:type" content="website">
-<meta property="og:title" content="没有title">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta property="og:title" content="404: Not Found">
+<meta property="og:url" content="http://yoursite.com/404/index.html">
 <meta property="og:site_name" content="没有title">
 <meta property="og:description" content="代码中挣扎，业务中绝望">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-11-22T16:16:47.031Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="没有title">
+<meta name="twitter:title" content="404: Not Found">
 <meta name="twitter:description" content="代码中挣扎，业务中绝望">
 
 
@@ -124,7 +125,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/">
+  <link rel="canonical" href="http://yoursite.com/404/">
 
 
 
@@ -134,7 +135,7 @@
   };
 </script>
 
-  <title>Archive | 没有title</title>
+  <title>404: Not Found | 没有title</title>
   
 
 
@@ -193,7 +194,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -285,7 +286,7 @@
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
 
     
     
@@ -350,113 +351,56 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">404: Not Found</h1>
+
+<div class="post-meta">
   
   
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+
+
+
+</div>
+
+</header>
 
       
-      <span class="archive-page-counter">
-        
+      
+      
+      <div class="post-body">
         
         
           
         
-        Um..! 2 posts in total. Keep on posting.
-      </span>
-      
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2018">2018</h1>
-          </div>
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/11/23/前端监控和卖点方案总结/" itemprop="url">
-              
-                <span itemprop="name">前端监控和卖点方案总结</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-11-23T15:06:02+08:00" content="2018-11-23">
-          11-23
-        </time>
       </div>
-
-    </header>
-  </article>
-
-
-
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/11/23/测试文章/" itemprop="url">
-              
-                <span itemprop="name">测试文章</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-11-23T00:18:39+08:00" content="2018-11-23">
-          11-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
-
+      
     </div>
+    
+
+
+
+    
+    
+    
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
           
+
+  
+ <div id="gitalk-container"></div>
+  
+
+
 
         </div>
         
@@ -685,6 +629,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
 
   
 
@@ -707,6 +655,21 @@
 
 
 
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'b28deb5ee8a441bc4713',
+          clientSecret: 'bce80213b0571180e556d97fa6c784e6d41d9064',
+          repo: 'lynnlynnchow.github.io',
+          owner: 'lynnlynnchow',
+          admin: ['lynnlynnchow'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')           
+       </script>
 
   
 
